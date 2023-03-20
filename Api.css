@@ -1,0 +1,173 @@
+
+body{
+    background-color: floralwhite;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+ 
+.Vehicles, .Vehicles_2{
+    display: flex;
+     
+
+}
+.Head{
+    display: inline-table;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid skyblue;
+    padding: 10px;
+    background: linear-gradient(skyblue, white);
+    
+
+}
+
+form{
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+}
+.search-bar{
+    height: 55px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 60px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.search-bar input{
+    background-color: transparent;
+    height: 4px;
+    flex: 1px;
+    border: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+}
+::placeholder{
+    color: gray;
+}
+.search-bar button img{
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+}
+ .search-bar button{
+    
+    border: 0px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+ }
+#signup{
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+    height: 30px;
+    width: 70px;
+    margin-bottom: 15px;
+    background: linear-gradient(skyblue, white);
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: 10px;
+    
+}
+#signup:hover{
+    background: linear-gradient(white, skyblue);
+}
+ 
+ 
+ .heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(84, 103, 122);
+    text-shadow: 4px 4px 2px rgb(251, 252, 252);
+
+    
+ }
+ .AxioCont, .AudiCont, .BenzCont, .FordCont{
+    display: inline-table;
+    border: 2px solid skyblue;
+    padding: 5px;
+    background: linear-gradient(skyblue, white);
+    padding-left: 4px;
+    height: 400px;
+    width: 680px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+  
+ .AudiCont, .FordCont{
+    margin-left: 40px;
+ }
+ 
+ 
+  img{
+    display: flexbox;
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+   
+   }
+  
+   .button{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    background-color:  skyblue;
+    border: 2px solid black;
+    border-radius: 5px;
+   }
+   .button:hover{
+     background: linear-gradient(skyblue, white);
+    font-size: medium;
+   }
+   #pop{
+    background-color: maroon;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+   }
+   #pop:hover{
+    background: linear-gradient(skyblue, white);
+    font-size: small;
+   }
+   h3{
+    font-size: x-large;
+    font-weight: bold;
+    color: red;
+   }
+   #end{
+    color: black;
+    text-shadow: 3px 3px 2px white;
+   }
+   span{
+    color: blue;
+    text-shadow: none;
+   }
+   a{
+    color: blue;
+   }
+   .bottom{
+    width: 100%;
+    background: linear-gradient(skyblue, white);
+   }
+    
+  
